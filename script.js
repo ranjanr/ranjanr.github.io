@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Fetch projects data
-    fetch('projects.json')
+    fetch('projects.json?v=' + new Date().getTime())
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
