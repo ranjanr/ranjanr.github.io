@@ -512,6 +512,77 @@ img {
 }
 
 /* ==========================================================================
+   Library Section
+   ========================================================================== */
+.library {
+  padding: 6rem 2rem 4rem;
+  position: relative;
+  z-index: 5;
+}
+
+.library-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.library-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.library-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent-color);
+}
+
+.articles-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.book-list li a {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-md);
+  color: var(--text-main);
+  transition: all var(--transition-fast);
+  font-weight: 600;
+  height: 100%;
+}
+
+.book-list li a span {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.35rem;
+}
+
+.book-list li a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
    About Section
    ========================================================================== */
 .about {
@@ -706,5 +777,9 @@ footer {
   
   .footer-content {
     flex-direction: column;
+  }
+  
+  .library-grid {
+    grid-template-columns: 1fr;
   }
 }
