@@ -64,11 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterBtns = document.querySelectorAll('.filter-btn');
     let allProjects = [];
 
-    // Utility to get initials for placeholder images
-    const getInitials = (title) => {
-        return title.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase();
-    };
-
     const renderProjects = (projects) => {
         projectsGrid.innerHTML = '';
         
@@ -87,11 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 `<span class="tech-tag">${tech}</span>`
             ).join('');
 
-            // Generate Image or Placeholder
-            const imageHtml = project.imageUrl 
-                ? `<img src="${project.imageUrl}" alt="${project.title} screenshot" class="card-image" loading="lazy">`
-                : `<div class="image-placeholder">${getInitials(project.title)}</div>`;
-
             // Featured Badge
             const featuredBadge = project.featured 
                 ? `<div class="featured-badge"><i class="ph-fill ph-star"></i> Featured</div>`
@@ -107,10 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 : '';
 
             card.innerHTML = `
-                <div class="card-image-wrapper">
-                    ${featuredBadge}
-                    ${imageHtml}
-                </div>
+                ${featuredBadge}
                 <div class="card-content">
                     <span class="card-category">${project.category}</span>
                     <h3 class="card-title">${project.title}</h3>
