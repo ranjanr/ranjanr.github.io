@@ -1,0 +1,64 @@
+[
+  {
+    "id": "autofixiq",
+    "title": "AutoFixIQ",
+    "description": "A nationwide platform connecting car owners with verified mechanics. Features automated geo-location and local repair options discovery.",
+    "techStack": [
+      "Next.js",
+      "React",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ],
+    "category": "Apps",
+    "featured": true,
+    "githubUrl": "#",
+    "liveUrl": "https://AutoFixIQ.com",
+    "imageUrl": ""
+  },
+  {
+    "id": "my-ai-score",
+    "title": "My AI Score",
+    "description": "An AI readiness assessment tool generating highly personalized, step-by-step professional development journeys and PDF reports.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "LLMs"
+    ],
+    "category": "AI",
+    "featured": true,
+    "githubUrl": "#",
+    "liveUrl": "https://myaiscore.app/",
+    "imageUrl": ""
+  },
+  {
+    "id": "smallbizpolicy",
+    "title": "SmallBizPolicy",
+    "description": "Simplifying compliance for small businesses through automated policy generation and management.",
+    "techStack": [
+      "Vue.js",
+      "Python",
+      "FastAPI"
+    ],
+    "category": "Tools",
+    "featured": false,
+    "githubUrl": "#",
+    "liveUrl": "https://smallbizpolicy.com",
+    "imageUrl": ""
+  },
+  {
+    "id": "residential-lease-app",
+    "title": "LeaseGen AI",
+    "description": "SaaS application enabling residential landlords to generate legally compliant, state-specific lease agreements using specialized RAG pipelines.",
+    "techStack": [
+      "Next.js",
+      "Gemini AI",
+      "Vercel",
+      "Tailwind CSS"
+    ],
+    "category": "AI",
+    "featured": true,
+    "githubUrl": "#",
+    "liveUrl": "#",
+    "imageUrl": ""
+  }
+]
