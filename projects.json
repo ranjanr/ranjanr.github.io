@@ -24,7 +24,7 @@
       "Node.js",
       "LLMs"
     ],
-    "category": "AI",
+    "category": "Apps",
     "featured": true,
     "githubUrl": "#",
     "liveUrl": "https://myaiscore.app/",
@@ -39,26 +39,26 @@
       "Python",
       "FastAPI"
     ],
-    "category": "Tools",
-    "featured": false,
+    "category": "Apps",
+    "featured": true,
     "githubUrl": "#",
     "liveUrl": "https://smallbizpolicy.com",
     "imageUrl": ""
   },
   {
-    "id": "residential-lease-app",
-    "title": "LeaseGen AI",
-    "description": "SaaS application enabling residential landlords to generate legally compliant, state-specific lease agreements using specialized RAG pipelines.",
+    "id": "india-ip-hub-app",
+    "title": "IndiaIPHub",
+    "description": "A clean, modern product for Indian startups and technology-led teams to map IP assets, identify risk, and know when to engage an expert.",
     "techStack": [
       "Next.js",
       "Gemini AI",
       "Vercel",
       "Tailwind CSS"
     ],
-    "category": "AI",
+    "category": "Apps",
     "featured": true,
     "githubUrl": "#",
-    "liveUrl": "#",
+    "liveUrl": "https://indiaiphub.com",
     "imageUrl": ""
   }
 ]
