@@ -145,6 +145,20 @@ img {
   box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
 }
 
+.btn-accent {
+  background: var(--gradient-text);
+  color: var(--bg-color);
+  border: none;
+  font-weight: 700;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
+
+.btn-accent:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.5);
+  color: var(--bg-color);
+}
+
 .btn-secondary {
   background: rgba(255, 255, 255, 0.1);
   color: var(--text-main);
