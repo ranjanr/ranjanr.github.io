@@ -34,6 +34,7 @@
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#research">Research</a></li>
                 <li><a href="#library">Library & Articles</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -101,6 +102,59 @@
                 <a href="https://github.com/ranjanr?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
                     View full repository list on GitHub <i class="ph ph-external-link"></i>
                 </a>
+            </div>
+        </section>
+
+        <!-- Research Projects Section -->
+        <section id="research" class="research container fade-in-section">
+            <div class="section-header">
+                <h2>Research Projects</h2>
+                <p>Innovative research and distributed systems architectures built by my students at San José State University.</p>
+            </div>
+            
+            <div class="research-grid">
+                <!-- IntelliRoute -->
+                <div class="research-card">
+                    <div class="card-content">
+                        <span class="card-category">Distributed Systems & Multi-LLM</span>
+                        <h3 class="card-title">IntelliRoute: A Distributed Control Plane for Multi-LLM Orchestration</h3>
+                        <p class="research-authors"><i class="ph ph-users"></i> Anukrithi Myadala, Larry Nguyen, James Pham, Surbhi Singh</p>
+                        <p class="research-context"><i class="ph ph-graduation-cap"></i> SJSU CMPE 273 — Enterprise Distributed Systems, Spring 2026</p>
+                        <p class="card-description">Most teams that ship LLM features call a provider SDK directly, which fails when adding a second provider. IntelliRoute serves as a distributed control plane for multi-LLM orchestration, managing routing, quotas, and fallback mechanisms.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/anu-myadala/IntelliRoute-team" target="_blank" rel="noopener noreferrer" class="card-link"><i class="ph ph-github-logo"></i> Code</a>
+                            <a href="IntelliRoute_CMPE273_Report.pdf" target="_blank" rel="noopener noreferrer" class="card-link"><i class="ph ph-file-pdf"></i> Read Paper</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mesh Control -->
+                <div class="research-card">
+                    <div class="card-content">
+                        <span class="card-category">Observability & Self-Healing</span>
+                        <h3 class="card-title">Mesh Control: A Self-Healing Microservice Mesh with Bounded LLM-Driven RCA</h3>
+                        <p class="research-authors"><i class="ph ph-users"></i> Vineet Kumar, Samved Sandeep Joshi, Girith Choudhary</p>
+                        <p class="research-context"><i class="ph ph-graduation-cap"></i> SJSU CMPE 273 — Enterprise Distributed Systems, Spring 2026</p>
+                        <p class="card-description">An autonomous Site Reliability Engineering (SRE) agent for a Docker Compose mesh of eight gRPC microservices. Subscribes to a NATS telemetry bus, computes per-service metrics over a sliding window, and triggers bounded LLM-driven root-cause analysis (RCA) for recovery.</p>
+                        <div class="card-links">
+                            <a href="Mesh-Control-Report.pdf" target="_blank" rel="noopener noreferrer" class="card-link"><i class="ph ph-file-pdf"></i> Read Paper</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TraceAggregator -->
+                <div class="research-card">
+                    <div class="card-content">
+                        <span class="card-category">Observability & Multi-Agent</span>
+                        <h3 class="card-title">TraceAggregator: A Distributed Observability Platform for Multi-Agent LLM Pipelines</h3>
+                        <p class="research-authors"><i class="ph ph-users"></i> Aishwarya Madhave, Nihad Karathodath Parambil, Saransh Soni, Vandan Shah</p>
+                        <p class="research-context"><i class="ph ph-graduation-cap"></i> SJSU Master's in Software Engineering</p>
+                        <p class="card-description">Multi-agent LLM pipelines fail in ways traditional tracing tools cannot surface. TraceAggregator is a distributed observability platform specifically designed to capture agent dependencies, trace agent state transitions, and diagnose pipeline failures.</p>
+                        <div class="card-links">
+                            <a href="Trace_Aggregator.pdf" target="_blank" rel="noopener noreferrer" class="card-link"><i class="ph ph-file-pdf"></i> Read Paper</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 

@@ -727,6 +727,63 @@ footer {
   visibility: visible;
 }
 
+/* ==========================================================================
+   Research Projects Section
+   ========================================================================== */
+.research {
+  padding: 6rem 2rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+}
+
+.research-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+
+.research-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: var(--shadow-md), var(--shadow-glow);
+}
+
+.research-authors {
+  font-size: 0.9rem;
+  color: var(--text-main);
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.research-authors i {
+  color: var(--accent-color);
+}
+
+.research-context {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.research-context i {
+  color: var(--accent-color);
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none; /* simple mobile nav hidden by default */
@@ -756,6 +813,10 @@ footer {
   }
   
   .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .research-grid {
     grid-template-columns: 1fr;
   }
   
