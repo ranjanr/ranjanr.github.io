@@ -1,5 +1,21 @@
 [
   {
+    "id": "foundero",
+    "title": "Foundero",
+    "description": "A startup accelerator workspace that compresses raw product ideas into a guided, 12-step validation framework to bypass manual spreadsheets and validate product-market fit.",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "AI"
+    ],
+    "category": "Apps",
+    "featured": true,
+    "githubUrl": "#",
+    "liveUrl": "https://foundero.app/",
+    "imageUrl": ""
+  },
+  {
     "id": "autofixiq",
     "title": "AutoFixIQ",
     "description": "A nationwide platform connecting car owners with verified mechanics. Features automated geo-location and local repair options discovery.",
