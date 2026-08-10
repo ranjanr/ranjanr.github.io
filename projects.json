@@ -1,5 +1,21 @@
 [
   {
+    "id": "leaselink",
+    "title": "LeaseLink",
+    "description": "A housing and rental assistant connecting tenants and landlords in California. Features an AI-powered notice interpreter, rent cap calculator, CA-compliant lease generator, and automated legal letter builder.",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Gemini AI"
+    ],
+    "category": "Apps",
+    "featured": true,
+    "githubUrl": "#",
+    "liveUrl": "https://www.leaselink.app/",
+    "imageUrl": ""
+  },
+  {
     "id": "foundero",
     "title": "Foundero",
     "description": "A startup accelerator workspace that compresses raw product ideas into a guided, 12-step validation framework to bypass manual spreadsheets and validate product-market fit.",
