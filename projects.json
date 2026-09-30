@@ -1,5 +1,53 @@
 [
   {
+    "id": "pantrypro",
+    "title": "PantryPro",
+    "description": "An intent-driven culinary curation engine turning pantry leftovers into pro-grade cuisine with semantic recipe matching, chef techniques, and hands-free cooking mode.",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "AI"
+    ],
+    "category": "AI",
+    "featured": true,
+    "githubUrl": "#",
+    "liveUrl": "https://www.pantrypro.lol/",
+    "imageUrl": ""
+  },
+  {
+    "id": "century-of-patents",
+    "title": "Century of Patents",
+    "description": "A museum-grade visual explorer of IBM's top high-value patents over 100 years, featuring original patent pencil sketches, product lineages, and plain-English breakthroughs.",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "category": "Apps",
+    "featured": true,
+    "githubUrl": "#",
+    "liveUrl": "https://www.centuryofpatents.site/",
+    "imageUrl": ""
+  },
+  {
+    "id": "ca-notary-academy",
+    "title": "California Notary Academy",
+    "description": "A comprehensive California notary education and exam-preparation platform guiding applicants through required coursework, legal duties, and the full commission journey.",
+    "techStack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "category": "Apps",
+    "featured": true,
+    "githubUrl": "#",
+    "liveUrl": "https://www.canotaryacademy.com/",
+    "imageUrl": ""
+  },
+  {
     "id": "leaselink",
     "title": "LeaseLink",
     "description": "A housing and rental assistant connecting tenants and landlords in California. Features an AI-powered notice interpreter, rent cap calculator, CA-compliant lease generator, and automated legal letter builder.",
